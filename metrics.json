@@ -1,0 +1,108 @@
+{
+  "top": "scanner_top",
+  "part": "GW5AST-LV138FPG676AC1/I0",
+  "wns_ns": 0.136,
+  "whs_ns": 0.136,
+  "util_pct": 12,
+  "project_dir": "C:\\Users\\penis\\.gemini\\antigravity\\scratch\\tang138k-npu-lcd",
+  "device": "GW5AST-LV138FPG676AC1/I0",
+  "fpga_build_id": "05826623",
+  "npu_map_hash": "0xAEE99776",
+  "bitstream_path": "C:\\Users\\penis\\.gemini\\antigravity\\scratch\\tang138k-npu-lcd\\fpga\\impl\\pnr\\scanner.fs",
+  "bitstream_bytes": 39707139,
+  "firmware": {
+    "path": "C:\\Users\\penis\\.gemini\\antigravity\\scratch\\tang138k-npu-lcd\\firmware\\Release\\output\\ae350_scanner.bin",
+    "size_bytes": 371848,
+    "crc32_hex": "0x876F45E2",
+    "ip_addr": "10.0.0.222"
+  },
+  "pnr_options": {
+    "map_option": 1,
+    "place_option": 4,
+    "route_option": 1,
+    "clock_route_order": 1,
+    "replicate_resources": true,
+    "max_fanout": 200
+  },
+  "utilization": {
+    "logic": {
+      "used": 15961,
+      "total": 138240,
+      "pct": 12
+    },
+    "registers": {
+      "used": 16962,
+      "total": 139140,
+      "pct": 13
+    },
+    "bsram": {
+      "used": 113,
+      "total": 340,
+      "pct": 34
+    },
+    "dsp": null,
+    "pll": {
+      "used": 3,
+      "total": 12,
+      "pct": 25
+    },
+    "primary_clocks": {
+      "used": 5,
+      "total": 8,
+      "pct": 63
+    }
+  },
+  "timing": {
+    "gate_passed": true,
+    "check_timing_exit_code": 0,
+    "worst_setup_path_ns": 0.136,
+    "worst_hold_ns": 0.136,
+    "worst_recovery_ns": 6.149,
+    "worst_removal_ns": 0.266,
+    "clocks": {
+      "gtx_clk": {
+        "constraint_mhz": 125.0,
+        "actual_fmax_mhz": 200.806,
+        "margin_mhz": 75.806,
+        "setup_slack_ns": 3.02,
+        "status": "PASS"
+      },
+      "clk_x1": {
+        "constraint_mhz": 100.0,
+        "actual_fmax_mhz": 117.581,
+        "margin_mhz": 17.581,
+        "setup_slack_ns": 1.495,
+        "status": "PASS"
+      },
+      "rgmii_rxclk": {
+        "constraint_mhz": 125.0,
+        "actual_fmax_mhz": 150.216,
+        "margin_mhz": 25.216,
+        "setup_slack_ns": 1.343,
+        "status": "PASS"
+      },
+      "ddr3_clkin": {
+        "constraint_mhz": 50.0,
+        "actual_fmax_mhz": 251.781,
+        "margin_mhz": 201.781,
+        "setup_slack_ns": 16.028,
+        "status": "PASS"
+      },
+      "ddr3_memory_clk": {
+        "constraint_mhz": 400.0,
+        "actual_fmax_mhz": 2598.775,
+        "margin_mhz": 2198.775,
+        "setup_slack_ns": 2.115,
+        "status": "PASS"
+      },
+      "ae350_ahb_clk": {
+        "constraint_mhz": 100.0,
+        "actual_fmax_mhz": 102.417,
+        "margin_mhz": 2.417,
+        "setup_slack_ns": 0.236,
+        "status": "PASS"
+      }
+    },
+    "check_timing_summary": "timing: 6 clocks, setup/hold/recovery/removal and the margin rule all pass"
+  }
+}
